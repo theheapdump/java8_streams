@@ -16,7 +16,7 @@ public class Comparing {
     List<People> peeps = List.of(new People("Zeta", 60, new Country("India")),
         new People("Alpha", 28, new Country("Australia")),
         new People("Bta", 25, new Country("Zimbabwe")),
-        new People("Epsilon", 28, new Country("Alabama")));
+        new People("Epsilon", 28, new Country("AlabWama")));
 
     peeps.stream().sorted(comparatorNamesAsc).forEach(System.out::println);
     System.out.println();
