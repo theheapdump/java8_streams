@@ -1,7 +1,6 @@
 package model;
 
 import java.util.List;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,10 +12,11 @@ import lombok.ToString;
 @AllArgsConstructor
 public class City {
 
-	private List<People> people;
-	private String name;
+  private List<People> people;
+	
+  private String name;
 
-	public void addPeople(People people) {
-		this.people.add(people);
-	}
+  public void addPeople(People people) {
+    this.people.add(people);
+  }
 }
